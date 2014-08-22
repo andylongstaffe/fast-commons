@@ -23,7 +23,7 @@ public class DefaultFastConfiguration implements FastConfiguration {
   private CompositeConfiguration config;
   private Set<String> envTypes = new HashSet<String>();
   private final String[] defaultEnvTypes = new String[] { "dev",
-      "functionaltest", "integration" };
+      "functionaltest", "integration", "qa", "preprod", "prod" };
   private String envtype;
   private final Logger log = LoggerFactory.getLogger(DefaultFastConfiguration.class);
 

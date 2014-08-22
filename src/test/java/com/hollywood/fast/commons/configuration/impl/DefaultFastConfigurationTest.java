@@ -78,11 +78,5 @@ public class DefaultFastConfigurationTest {
       Assert.assertTrue(e.getMessage().startsWith("Unknown envtype of"));
     }
   }
-  
-  @Test
-  public void testSpringProfileIsSetViaEnvtypeWhenNotPresent() throws Exception {
-	  System.setProperty("envtype", "integration");
-	  FastConfiguration testConfig = new DefaultFastConfiguration("testing.properties");
-	  Assert.assertEquals("integration", testConfig.getConfig().getProperty("spring.profiles.active"));
-  }
+
 }

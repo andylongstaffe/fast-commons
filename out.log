@@ -1,0 +1,20 @@
+321  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Loading configuration
+326  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Environment set to integration via system property envtype
+409  DEBUG c.h.f.c.c.i.DefaultFastConfiguration: Configuration loaded
+410  DEBUG c.h.f.c.c.i.DefaultFastConfiguration: Set spring profile based on envtype
+410  INFO  c.h.f.c.c.i.DefaultFastConfiguration: spring.profiles.active: integration
+410  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Configuration set up successfully
+413  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Loading configuration
+413  INFO  c.h.f.c.c.i.DefaultFastConfiguration: No envtype found defaulting to dev
+414  DEBUG c.h.f.c.c.i.DefaultFastConfiguration: Configuration loaded
+423  INFO  c.h.f.c.c.i.DefaultFastConfiguration: spring.profiles.active: dev
+423  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Configuration set up successfully
+425  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Loading configuration
+425  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Environment set to integration via system property envtype
+426  DEBUG c.h.f.c.c.i.DefaultFastConfiguration: Configuration loaded
+427  INFO  c.h.f.c.c.i.DefaultFastConfiguration: spring.profiles.active: integration
+427  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Configuration set up successfully
+428  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Loading configuration
+429  INFO  c.h.f.c.c.i.DefaultFastConfiguration: No envtype found defaulting to dev
+432  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Loading configuration
+432  INFO  c.h.f.c.c.i.DefaultFastConfiguration: Environment set to unknownEnv via system property envtype

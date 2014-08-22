@@ -1,0 +1,27 @@
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting*.class
+# really belongs in a global file for eclipse projects
+bin/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#
+# Eclipse
+#
+.classpath
+.project
+.settings/
+/log.out
+
